@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Memory Game</title>
+</head>
+<body>
+    <div class="wellcom-screen">
+        <span class="start">Start the game</span>
+    </div>
+        <div class="game-info">
+            <div class="player-name">
+                Hello: <span></span>
+            </div>
+            <div class="timer">
+                TimeLeft: <span>100</span>
+            </div>
+            <div class="worng-tries">
+                Wrong Tries: <span>0</span>
+            </div>
+        </div>
+        <div class="memory-images-gallary">
+            <div class="image-box" data-imageName="angular">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/angular-icon-svgrepo-com.svg" alt="angular">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="angular">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/angular-icon-svgrepo-com.svg" alt="angular">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="bootstrap">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/bootstrap-4-logo-svgrepo-com.svg" alt="bootstrap">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="bootstrap">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/bootstrap-4-logo-svgrepo-com.svg" alt="bootstrap">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="css3">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/css3-svgrepo-com.svg" alt="css3">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="css3">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/css3-svgrepo-com.svg" alt="css3">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="html">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/html-svgrepo-com.svg" alt="html">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="html">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/html-svgrepo-com.svg" alt="html">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="javascript">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/javascript-svgrepo-com.svg" alt="javascript">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="javascript">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/javascript-svgrepo-com.svg" alt="javascript">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="python">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/python-svgrepo-com.svg" alt="python">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="python">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/python-svgrepo-com.svg" alt="python">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="react">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/react-svgrepo-com.svg" alt="react">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="react">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/react-svgrepo-com.svg" alt="react">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="sass">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/sass-svgrepo-com.svg" alt="sass">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="sass">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/sass-svgrepo-com.svg" alt="sass">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="typescript">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/typescript-official-svgrepo-com.svg" alt="typescript">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="typescript">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/typescript-official-svgrepo-com.svg" alt="typescript">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="vue">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/vue-9-logo-svgrepo-com.svg" alt="vue">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="vue">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/vue-9-logo-svgrepo-com.svg" alt="vue">
+                </div>
+            </div>
+            <!-- <div class="image-box" data-imageName="facebook">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/facebook-color-svgrepo-com.svg" alt="facebook">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="facebook">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/facebook-color-svgrepo-com.svg" alt="facebook">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="linkedin">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/linkedin-svgrepo-com.svg" alt="linkedin">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="linkedin">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/linkedin-svgrepo-com.svg" alt="linkedin">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="youtube">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/youtube-svgrepo-com.svg" alt="youtube">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="youtube">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/youtube-svgrepo-com.svg" alt="youtube">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="twitter">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/twitter-svgrepo-com(1).svg" alt="twitter">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="twitter">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/twitter-svgrepo-com(1).svg" alt="twitter">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="php">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/php-svgrepo-com.svg" alt="php">
+                </div>
+            </div>
+            <div class="image-box" data-imageName="php">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/php-svgrepo-com.svg" alt="php">
+                </div>
+            </div> -->
+        </div>
+    <audio id="game-start-audio" src="audios/champion-80bpm-132686.wav" preload="auto" autoplay></audio>
+    <audio id="game-over-audio" src="audios/Fail - sound effect(MP3_128K).mp3" preload="auto"></audio>
+    <audio id="right-answer-audio" src="audios/Success Sound Effect(MP3_128K).mp3" preload="auto"></audio>
+    <audio id="wrong-answer-audio" src="audios/Wrong Answer Sound effect(MP3_128K).mp3" preload="auto"></audio>
+    <script src="js/main.js"></script>
+</body>
+</html>
